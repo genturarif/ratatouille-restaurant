@@ -1,0 +1,265 @@
+body {
+  background-color: #171717;
+  overflow-x: hidden;
+}
+.bg-navbar {
+  --backgound-color-navbar: black;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--backgound-color-navbar);
+}
+.nav-link,
+.navbar-brand {
+  color: white !important;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+.text {
+  padding-top: 14rem;
+  margin-left: 2rem;
+  color: white;
+  text-shadow: 3px 3px 15px black;
+}
+.text h1 {
+  font-size: 3.5rem;
+  color: #e1701a;
+}
+.text h3 {
+  font-size: 1.8rem;
+}
+.text p {
+  font-size: 1rem;
+}
+
+/* About  */
+.about {
+  padding-top: 3rem;
+}
+.about h2 {
+  font-size: 2.3rem;
+  color: #e1701a;
+}
+.about p {
+  color: white;
+  margin-top: 1rem;
+}
+
+/* Chef */
+.chef {
+  padding-top: 3rem;
+}
+.chef h2 {
+  font-size: 2.3rem;
+  color: #e1701a;
+}
+.chef .img-chef {
+  margin-bottom: 3rem;
+}
+.chef img {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #e1701a;
+}
+.chef p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: white;
+}
+
+/* Dishes */
+.dishes {
+  padding-top: 3rem;
+}
+.dishes h2 {
+  font-size: 2.3rem;
+  color: #e1701a;
+}
+.dishes .img-dishes {
+  margin-bottom: 1rem;
+}
+.dishes img {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #e1701a;
+}
+
+/* Contact */
+.contact {
+  padding-top: 3rem;
+}
+.contact h2 {
+  font-size: 2.3rem;
+  color: #e1701a;
+  margin-bottom: 1rem;
+}
+.contact .btn {
+  color: white;
+  background-color: #e1701a;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+.footer {
+  background-color: black;
+  color: white;
+  padding-top: 1.7rem;
+  padding-bottom: 0.5rem;
+}
+.footer span {
+  font-weight: bold;
+  color: #e1701a;
+}
+
+/* Responsive Breakpoints */
+/* Desktop Version */
+@media (min-width: 992px) {
+  body {
+    background-color: #171717;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+  }
+  .bg-navbar {
+    --backgound-color-navbar: black;
+  }
+
+  /* Navbar */
+  .navbar {
+    background: transparent;
+    background-color: var(--backgound-color-navbar);
+  }
+  .nav-link,
+  .navbar-brand {
+    font-size: 1.1rem;
+    color: white !important;
+    text-shadow: 3px 3px 7px black;
+  }
+  .navbar-brand {
+    font-family: "Dancing Script", cursive;
+  }
+  .nav-link:hover {
+    color: white;
+  }
+  .navbar-brand:hover {
+    color: white;
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #e1701a;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  /* Jumbotron */
+  .jumbotron {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    text-shadow: 7px 7px 10px black;
+  }
+  .text {
+    padding-top: 11rem;
+    margin-left: 7rem;
+    color: white;
+  }
+  .text h1 {
+    font-size: 4rem;
+    color: #e1701a;
+  }
+  .text h3 {
+    font-size: 2.5rem;
+  }
+  .text p {
+    font-size: 1.8rem;
+  }
+
+  /* About  */
+  .about {
+    padding-top: 3.5rem;
+  }
+  .about h2 {
+    font-size: 2.5rem;
+    color: #e1701a;
+  }
+  .about p {
+    color: white;
+    margin-top: 1rem;
+  }
+
+  /* Chef */
+  .chef {
+    padding-top: 3.5rem;
+  }
+  .chef h2 {
+    font-size: 2.5rem;
+    color: #e1701a;
+  }
+  .chef img {
+    margin-left: 0.8rem;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #e1701a;
+  }
+  .chef p {
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: white;
+  }
+
+  /* Dishes */
+  .dishes {
+    padding-top: 3.5rem;
+  }
+  .dishes h2 {
+    font-size: 2.5rem;
+    color: #e1701a;
+    margin-bottom: 1rem;
+  }
+  .dishes img {
+    margin-left: 0.8rem;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #e1701a;
+  }
+
+  /* Contact */
+  .contact {
+    padding-top: 3.5rem;
+  }
+  .contact h2 {
+    font-size: 2.5rem;
+    color: #e1701a;
+    margin-bottom: 2rem;
+  }
+  .contact .btn {
+    color: white;
+    background-color: #e1701a;
+    margin-bottom: 1rem;
+  }
+
+  /* Footer */
+  .footer {
+    background-color: black;
+    color: white;
+    padding-top: 2.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .footer span {
+    font-weight: bold;
+    color: #e1701a;
+  }
+}
