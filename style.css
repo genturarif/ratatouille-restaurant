@@ -20,6 +20,10 @@ body {
 .jumbotron {
   background-image: url(img/bg.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
   min-height: 100vh;
 }
 .text {
@@ -168,6 +172,10 @@ body {
   .jumbotron {
     background-image: url(img/bg.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
     min-height: 100vh;
     text-shadow: 7px 7px 10px black;
   }
